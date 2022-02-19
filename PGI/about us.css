@@ -1,0 +1,41 @@
+*
+    {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.title{
+    width:auto;
+    text-align: center;
+    color: purple;
+    top:20px;
+    left:15px 550px
+   
+}
+.logo{
+    width: 15%;
+    right:  20px 450px;
+    position: relative;
+    
+}
+.content{
+    text-align: none;
+    top:-150px;
+    left:300px;
+    color: yellow;
+    position: relative;
+    cursor: pointer;
+}
+body{
+    background-image: url(about%20us.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family:sans-serif;
+}
+.photo{
+    position: absolute;
+    right:150px;
+    bottom:70px;
+    cursor: pointer;
+    width:-70px;
+}

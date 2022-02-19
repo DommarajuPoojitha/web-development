@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding:50px100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(contactus.jpg);
+    background-size: cover
+    
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h1{
+    font-size:36px;
+    font-weight:500;
+    color:lawngreen;
+}
+.contact .content h3{
+    
+    font-weight:300;
+    color:yellow;
+}
+.container{
+    width: :100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: red;
+}
+.container .contactInfo .box
+{
+    position: relative;
+    padding: 40px 10px;
+    display: flex;
+}
+.container .contactInfo .box .icon
+{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 30px;
+    color: chartreuse;
+}
+.contactForm{
+    widows: 40px;
+    padding: 40px;
+    background:#fff;
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input[type="submit"]{
+width:100px;
+    background: green;
+    color: pink;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+.photo{
+    position: absolute;
+    right:1100px;
+    bottom:70px;
+    cursor: pointer;
+    width:-70px;
+}
+.banner{
+    width: 15%;
+    right:  20px 450px;
+    position: relative;
+    
+}

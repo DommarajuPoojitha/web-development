@@ -1,0 +1,107 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image:url(world.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family:sans-serif;
+}
+.navbar{
+    width:100%;
+    margin:5px 1000px;
+    padding: 35px 0;
+    display:flex;
+    text-align: left;
+    color: chartreuse;
+    position: relative;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    color: chartreuse;
+}
+.Menu-Bar .fas
+{
+    margin-right: 9px;
+}
+.logo{
+    width:65px;
+    position:absolute;
+    top:10px;
+    left:425px;
+    cursor:pointer;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 5px 550px;
+    border-radius: 100px;
+    font-weight: bold;
+    border: 5px solid #009688;
+    background: transparent;
+    color: mediumspringgreen;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width:0;
+    border-radius:25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+button .fas{
+    margin-right: 9px;
+}
+button .far{
+    margin-right: 9px;
+}
+button a{
+    color: yellow;
+}
+h1{
+    color:  lawngreen;
+    position: absolute; 
+    top:10px;
+    left: 500px;
+    cursor: pointer;
+}
+h3{
+    color:aqua;
+    position: absolute;
+    bottom: 20px;
+    left:0;
+    cursor: pointer;
+}
+.photo{
+    position: absolute;
+    right:150px;
+    bottom:70px;
+    cursor: pointer;
+}
+.mother{
+    cursor: pointer;
+}
